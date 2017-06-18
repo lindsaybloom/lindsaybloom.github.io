@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lindsaybloom.ca</title>
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="lindsaybloom.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <meta charset="utf-8" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="tabs.js"></script>
+        <script src="raphael.js"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <body>
+
+        <div class="navbar-wrapper">
+            <div class="container">
+
+                <nav class="navbar navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html">Home</a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="aboutme.html">About Me</a>
+                                </li>
+                                <li class="active"><a href="classes.html">Classes</a>
+                                </li>
+                                <li><a href="Bloom_Resume.pdf" target='_blank'>Resume</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+  <script>
+            $(document).ready(function(){
+                $("#flip1").click(function(){
+                    $("#panel1").slideToggle("slow");
+                });
+            });
+             $(document).ready(function(){
+                $("#flip2").click(function(){
+                    $("#panel2").slideToggle("slow");
+                });
+            });
+             $(document).ready(function(){
+                $("#flip3").click(function(){
+                    $("#panel3").slideToggle("slow");
+                });
+            });
+             $(document).ready(function(){
+                $("#flip4").click(function(){
+                    $("#panel4").slideToggle("slow");
+                });
+            });
+             $(document).ready(function(){
+                $("#flip5").click(function(){
+                    $("#panel5").slideToggle("slow");
+                });
+            });
+            $(document).ready(function(){
+                $("#flip6").click(function(){
+                    $("#panel6").slideToggle("slow");
+                });
+            });
+            $(document).ready(function(){
+                $("#flip7").click(function(){
+                    $("#panel7").slideToggle("slow");
+                });
+            });
+      
+        </script>
+        
+        <div id='class' class="container">
+            <div class='card class'>
+                <h3>Classes at Tufts</h3>
+                <p id = 'work'>  
+                    <br>
+                <h4><a href='http://www.cs.tufts.edu/comp/15/' target='_blank'>COMP15: Data Structures</a></h4>
+                <p>
+                    <br>
+                    <div id="flip1"><a href = 'http://www.cs.tufts.edu/comp/15/assignments/proj1/index.shtml' target='_blank'>Nozama Online</a></div>
+                <div id="panel1">
+                    <br>
+                    For this project, I simulated the operations of an order processing facility for a top online retailer, known as Nozama Online.
+                    <br>
+                    <br>
+                    <a href='NozamaREADME.pdf' class="btn btn-info" role="button">README</a>
+                </div>
+                
+                <br>
+                <br>
+                <div id="flip2">Spotlight Search</div>
+                <div id="panel2">
+                    <br>
+                    For this project, I implemented a program that indexes and searches a file tree for strings and then indexes each string. When a query is entered by a user, the program will print out all occurences of that query along with its path and line number.
+                    <br>
+                    <br>
+                    <a href='Spotlight_README.pdf' class="btn btn-info" role="button">README</a>
+                </div>
+                <br>
+                <br>
+                <h4><a href='http://www.cs.tufts.edu/comp/40/' target='_blank'>COMP40: Machine Structure and Assembly Language Programming</a></h4>
+                
+                <br>
+                <div id="flip3"><a href='http://www.cs.tufts.edu/comp/40/homework/filesnpix' target='_blank'>FilesnPix</a></div>
+                <div id="panel3">
+                    <br>
+                    For this assignment, I designed, built and tested two application programs and one supporting file input routine. The first program reports the average brightness of an image file. The second program reports similarities in file data, and uses an input routine called readaline that I implemented. That input routine needed to conform to an interface that was provided.
+                    <br>
+                    <br>
+                    <a href='hw1designdoc.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                </div>
+                
+                <br>
+                <br>
+                <div id="flip4"><a href='http://www.cs.tufts.edu/comp/40/homework/iii' target='_blank'>Interfaces, Implementations, and Images</a></div>
+                <div id="panel4">
+                <br>
+                This assignment contained four components. The first component adapted the unboxed-array abstraction to support two-dimensional arrays. This two dimensional array was used in the second component, which determined the validity of a sudoku board. A portable graymap file that was passed in by a user would be copied into the two dimensional array, during which we would determine the validity of the sudoku board.
+                For the third component of the assignment, I implemented an interface that supported a two dimensional array of bits. This interface was then used to unblack edges of a portable graymap file. Thus, if a file had edge pixels that were black, the unblackedges program would change those edge pixels from black to white.
+                <br>
+                <br>
+                <a href='hw2designdoc.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                </div>
+                
+                <br>
+                <br>
+                <div id="flip5"><a href='locality.pdf' target='_blank'>Locality</a></div>
+                <div id="panel5">
+                <br>
+                This assignment was all about the cache and locality. I implemented blocked two-dimensional arrays, which I used to evaluate the performance of image rotation utilizing three distinct array-access patterns with different locality properties. In this assignment, I also learned how to write code that is polymorphic in an array type.
+                <br>
+                <br>
+                <a href='HW3Design.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                </div>
+                
+                <br>
+                <br>
+                <div id="flip6"><a href='arith.pdf' target='_blank'>Arith</a></div>
+                <div id="panel6">
+                <br>
+                In this assignment, my partner and I wrote a program that takes a PPM image and compresses the image by transforming color
+                    spaces and discarding information not easily seen by the human eye (this is lossy compression). We
+                    packed and unpacked binary data that puts multiple small values (both signed and unsigned) into a single larger
+                    integer (often referred to as a word). We worked with two’s-complement representations of signed data.
+                <br>
+                <br>
+                <a href='arithDesign.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                </div>
+                
+                <br>
+                <br>
+                <div id="flip7"><a href='um.pdf' target='_blank'>UM</a></div>
+                <div id="panel7">
+                <br>
+                The purpose of this assignment was to understand virtual-machine code (and by extension machine code)
+                    by writing a software implementation of a simple virtual machine. My partner and I created a design with a clean modular structure.
+                    We learned how the structural choices you make affect the performance of your programs.
+                    We built an executable named "um". This Linux program takes a single argument which is the pathname
+                    for a file. That file, typically with a name like some program.um, contains the machine instructions
+                    that our emulator is to execute. When a UM program is stored in a file, words are stored using big-endian
+                    byte order. Thus the high order four bits of the first byte of the file will be the first operation code for that
+                    program. The um was implemented as a 32 bit machine using 64 bit Linux machines.
+                <br>
+                <br>
+                <a href='umDesign.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                </div>
+          
+          
+            </div>
+        </div>
+    </body>
+</html>

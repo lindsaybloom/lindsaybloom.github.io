@@ -1,0 +1,384 @@
+html {
+    height: 100vh;
+}
+
+html body {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Nunito Sans', sans-serif;*/
+    padding: 0px;
+    margin: 0px;
+    background-color: #f5c4cd;
+    color: #303030;
+    height: 100vh;
+}
+
+#canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+}
+
+#content {
+    position: absolute;
+    top: 5;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translateX(-50%); /* This is a shorthand of
+                                             translateX(-50%) and translateY(-50%) */
+    width: 700px;
+    padding: 20px;
+    clear: both;
+    /*height: calc(100% - 140px);*/
+    background: rgba(0, 0, 0, 0);
+    z-index: 1000;
+    height: 100%;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.med {
+    font-size: 16px;
+}
+
+.normal {
+    font-size: 12px;
+}
+
+.card {
+    padding: 20px 20px;
+    /*box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);*/
+    margin: 20px auto;
+    position: relative;
+    z-index: 1000;
+    background: rgba(255, 255, 255, .85);
+    border: 4px solid gray;
+    border-radius: 25px
+}
+
+#myjumbo{
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 5px 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+#header {
+    margin: 0px auto;
+}
+
+a:visited {
+    color: #303030;
+}
+
+#header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #303030;
+}
+
+#header a:hover {
+    text-decoration: underline;
+    color: #303030;
+}
+
+#header p {
+    margin: 5px;
+}
+
+#picture {
+    height: 240px;
+    float: center;
+}
+
+#picture2 {
+    height: 400px;
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+#picture2:hover{
+	opacity: 0.5;
+    animation: linkhover;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+}
+
+#aboutme {
+    text-align: justify;
+}
+
+#bio {
+    margin-left: 0px;
+}
+
+.class {
+    text-align: left;
+}
+
+.class h3 {
+    text-align: left;
+    margin-top: 0px;
+}
+
+.class p {
+    text-align: justify;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.class a.button {
+    background-color: #424242; 
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 5px 0px 5px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: 50px;
+    font-size: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.class a.button:hover {
+    color: white;
+    background-color: #212121;
+    animation: linkhover; 
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+}
+
+.class ul {
+    margin: 0px;
+}
+
+html .btn {
+  color: white;
+  background-color: pink;
+  border-color: gray;
+}
+
+html .btn-primary.hover{
+    color: gray;
+    background-color: gray;
+}
+
+#navigation {
+    width: 401px;
+    margin: 20px auto;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.16), 0 2px 4px rgba(0,0,0,0.23);
+    background-color: white; 
+    border: 2px solid gray;
+ }
+
+#navigation a:last-child {
+    border-right: none;
+}
+
+#navigation a {
+    background-color: white; 
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #f5c4cd;
+    padding: 15px 15px;
+    font-size: 16px;
+    width: 99.55px;
+    margin: 0px;
+    border-right: 2px solid white;
+    text-shadow: -0.5px 0 gray, 0 0.5px gray, 0.5px 0 gray, 0 -0.5px gray;
+}
+#navigation a.button{
+	color: white;
+}
+
+#navigation a:hover{
+    color: gray;
+    background-color:  #f5c4cd;
+    animation: linkhover;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+}
+
+.active {
+    background-color:  white;
+}
+
+#animation {
+    background-color: white;
+    width: 420px;
+    height: 1.3em;
+    text-align: center;
+    /*border: 2px gray;*/
+    margin: auto;
+    font-size: 60px;
+}
+
+#panel1, #flip1 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel1 {
+    padding: 50px;
+    display: none;
+}
+#panel2, #flip2 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel2 {
+    padding: 50px;
+    display: none;
+}
+#panel3, #flip3 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel3 {
+    padding: 50px;
+    display: none;
+}
+#panel4, #flip4 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel4 {
+    padding: 50px;
+    display: none;
+}
+#panel5, #flip5 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel5 {
+    padding: 50px;
+    display: none;
+}
+
+#panel6, #flip6 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel6 {
+    padding: 50px;
+    display: none;
+}
+
+#panel7, #flip7 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel7 {
+    padding: 50px;
+    display: none;
+}
+
+@keyframes linkhover{
+  from {background-color: #424242}
+  to {background-color: #212121}
+}
+
+
+
+@keyframes buttonhover{
+  from {background-color: #424242}
+  to {background-color: #212121}
+}
+
+footer {
+    position: relative;
+    margin: 10px auto;
+}
+
+
+footer .button:hover {
+    color: white;
+    background-color: #212121;
+    animation: linkhover;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+}
+
+footer .button {
+    background-color: #424242; 
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 5px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    width: 75px;
+    font-size: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+@media (max-width: 400px) {
+    #content {
+        min-width: 0px;
+        width: calc(100% - 40px);
+    }
+
+    #picture {
+        display: none;
+    }
+
+    #header {
+        width: 300px;
+        text-align: center !important;
+    }
+
+    #header div {
+        text-align: center;
+        float: none;
+    }
+
+    #bio {
+        margin-left: 0px;
+    }
+}
