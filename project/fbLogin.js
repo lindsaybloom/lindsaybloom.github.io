@@ -26,4 +26,3 @@ function checkLoginState() {
         statusChangeCallback(response);
     });
 }
-//jashdfiuefhierh
