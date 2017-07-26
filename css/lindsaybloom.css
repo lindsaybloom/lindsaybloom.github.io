@@ -319,6 +319,42 @@ html .btn-primary.hover{
     display: none;
 }
 
+#panel8, #flip8 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel8 {
+    padding: 50px;
+    display: none;
+}
+
+#panel9, #flip9 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel9 {
+    padding: 50px;
+    display: none;
+}
+
+#panel10, #flip10 {
+    padding: 5px;
+    text-align: left;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+}
+
+#panel10 {
+    padding: 50px;
+    display: none;
+}
+
 @keyframes linkhover{
   from {background-color: #424242}
   to {background-color: #212121}

@@ -50,28 +50,28 @@
             </div>
         </div>
 
-  <script>
+        <script>
             $(document).ready(function(){
                 $("#flip1").click(function(){
                     $("#panel1").slideToggle("slow");
                 });
             });
-             $(document).ready(function(){
+            $(document).ready(function(){
                 $("#flip2").click(function(){
                     $("#panel2").slideToggle("slow");
                 });
             });
-             $(document).ready(function(){
+            $(document).ready(function(){
                 $("#flip3").click(function(){
                     $("#panel3").slideToggle("slow");
                 });
             });
-             $(document).ready(function(){
+            $(document).ready(function(){
                 $("#flip4").click(function(){
                     $("#panel4").slideToggle("slow");
                 });
             });
-             $(document).ready(function(){
+            $(document).ready(function(){
                 $("#flip5").click(function(){
                     $("#panel5").slideToggle("slow");
                 });
@@ -86,18 +86,34 @@
                     $("#panel7").slideToggle("slow");
                 });
             });
-      
+            $(document).ready(function(){
+                $("#flip8").click(function(){
+                    $("#panel8").slideToggle("slow");
+                });
+            });
+            $(document).ready(function(){
+                $("#flip9").click(function(){
+                    $("#panel9").slideToggle("slow");
+                });
+            });
+            $(document).ready(function(){
+                $("#flip10").click(function(){
+                    $("#panel10").slideToggle("slow");
+                });
+            });
+
         </script>
-        
+
         <div id='class' class="container">
             <div class='card class'>
                 <h3>Classes at Tufts</h3>
+                <h5>Please contact me directly to view the code and documents for each assignment.</h5>
                 <p id = 'work'>  
                     <br>
                 <h4><a href='http://www.cs.tufts.edu/comp/15/' target='_blank'>COMP15: Data Structures</a></h4>
                 <p>
                     <br>
-                    <div id="flip1"><a href = 'http://www.cs.tufts.edu/comp/15/assignments/proj1/index.shtml' target='_blank'>Nozama Online</a></div>
+                <div id="flip1"><a href = 'http://www.cs.tufts.edu/comp/15/assignments/proj1/index.shtml' target='_blank'>Nozama Online</a></div>
                 <div id="panel1">
                     <br>
                     For this project, I simulated the operations of an order processing facility for a top online retailer, known as Nozama Online.
@@ -105,7 +121,7 @@
                     <br>
                     <a href='pdfs/NozamaREADME.pdf' class="btn btn-info" role="button">README</a>
                 </div>
-                
+
                 <br>
                 <br>
                 <div id="flip2">Spotlight Search</div>
@@ -118,8 +134,76 @@
                 </div>
                 <br>
                 <br>
+
+                <h4><a href='https://tuftsdev.github.io/WebProgramming/' target='_blank'>COMP20: Web Programming</a></h4>
+                <p>
+                    <br>
+                <div id="flip8"><a href = 'https://tuftsdev.github.io/WebProgramming/assignments/lab-dom.html' target='_blank'>My Old Kentucky Home</a></div>
+                <div id="panel8">
+                    <br>
+                    For this project, I used JavaScript to annotate a music video with the lyrics of the song in the and provided some styling for the page via style.css.
+                    <br>
+                    <br>
+                    <a href='https://github.com/lindsaybloom/comp20-lbloom/tree/master/my_old_kentucky_home' class="btn btn-info" role="button">Github Repository</a>
+                </div>
+                <br>
+                <br>
+                <div id="flip9"><a href = 'https://tuftsdev.github.io/WebProgramming/assignments/lab-responsive.html' target='_blank'>Responsive</a></div>
+                <div id="panel9">
+                    <br>
+                    <img id="picture2" src="software.png" alt="software.png">
+                    Given an image named software.png and using only one HTML file named index.html and only one CSS file named responsive.css, I created a web page where if you resize the browser screen width, a different part of the image will be rendered. That is: <br>
+                    If the browser screen width is greater than 1200 pixels, display the top-left image of software.png (i.e., the one that reads "How the customer explained it")<br>
+                    If the browser screen width is greater than 1100 pixels but less than or equal to 1200 pixels, display the second image on the top row (i.e., "How the Project Leader understood it").<br>
+                    If the browser screen width is greater than 1000 pixels but less than or equal to 1100 pixels, display the third image on the top row (i.e., "How the Analyst designed it").<br>
+                    If the browser screen width is greater than 900 pixels but less than or equal to 1000 pixels, display the fourth image on the top row.<br>
+                    If the browser screen width is greater than 800 pixels but less than or equal to 900 pixels, display the last image on the top row.<br>
+                    If the browser screen width is greater than 700 pixels but less than or equal to 800 pixels, display the first image on the second row ("How the project was documented").<br>
+                    If the browser screen width is greater than 600 pixels but less than or equal to 700 pixels, display the second image on the second row.<br>
+                    If the browser screen width is greater than 500 pixels but less than or equal to 600 pixels, display the third image on the second row.<br>
+                    If the browser screen width is greater than 400 pixels but less than or equal to 500 pixels, display the fourth image on the second row.<br>
+                    If the browser screen width is less than or equal to 400 pixels, display the last image, bottom-right ("What the customer really needed").
+                    <br>
+                    <br>
+                    <a href='https://github.com/lindsaybloom/comp20-lbloom/tree/master/responsive' class="btn btn-info" role="button">Github Repository</a>
+                </div>
+                <br>
+                <br>
+
+                <div id="flip10"><a href = 'https://tuftsdev.github.io/WebProgramming/assignments/lab-mbta.html' target='_blank'>MBTA</a></div>
+                <div id="panel10">
+                    <br>
+                    <a href = 'https://tuftsdev.github.io/WebProgramming/assignments/lab-mbta.html'>Part 1</a>
+                    <br>
+                    For this assignment, I created a page that displays a Google Map of all the MBTA Red Line subway stations.
+                    These were the requirements for the assignment: <br>
+                    -The map shall take up the entire page. <br>
+                    -Each station on the map shall be a marker with an icon: use the same icon image for each marker. The Google Maps default red marker pin is not good enough. <br>
+                    -For now, the map shall be centered on South Station. <br>
+                    -Render a red polyline connecting each station, thus showing the complete Red Line on the map. Please note that the Red Line forks at JFK/UMass Station<br>
+                    <a href = 'https://tuftsdev.github.io/WebProgramming/assignments/lab-mbta2.html'>Part 2</a>
+                    <br>
+                    This part of the assignment implemented four new features: <br>
+                    -Determining your geolocation (geographic latitude and longitude) using the JavaScript navigator.geolocation object. Upon determining your geolocation, place a marker of where you are on the map. The icon of the marker must be different than icon used for each MBTA subway station (it can be the default red pin Google uses).<br>
+                    -Upon clicking on your marker on the map, display an information window noting the closest MBTA Red Line subway station from where you are including the distance away in miles.
+                    -Render a polyline (any color) that connects "your" marker to the marker of the closest MBTA Red Line subway station.
+                    -Upon clicking on a MBTA Red Line subway station marker, display an infowindow of the schedule of upcoming trains for that station. Use JSON API of Red Line trains that is provided.
+                    <br>
+                    <a href = 'https://tuftsdev.github.io/WebProgramming/assignments/lab-mbta3.html'>Part 3</a>
+                    <br>
+                    In this part, I recreated the server that served the real-time schedule JSON feed MBTA Red Line subway trains. The requirements were: <br>
+                    -The server shall be written in Node.js and using the Express web application framework. You are allowed to use Node packages. <br>
+                    -Work must be deployed onto Heroku. <br>
+                    -The server must have one route: GET /redline.json. Accessing this route shall return a JSON string, the contents of the original source of the JSON data feed http://developer.mbta.com/lib/rthr/red.json.
+                    Cross-Origin Resource Sharing must be enabled for GET /redline.json.
+                    <br>
+                    <br>
+                    <a href='https://github.com/lindsaybloom/comp20-lbloom/tree/master/mbta' class="btn btn-info" role="button">Github Repository</a>
+                </div>
+                <br>
+
                 <h4><a href='http://www.cs.tufts.edu/comp/40/' target='_blank'>COMP40: Machine Structure and Assembly Language Programming</a></h4>
-                
+
                 <br>
                 <div id="flip3"><a href='http://www.cs.tufts.edu/comp/40/homework/filesnpix' target='_blank'>FilesnPix</a></div>
                 <div id="panel3">
@@ -129,50 +213,50 @@
                     <br>
                     <a href='pdfs/hw1designdoc.pdf' target='_blank' class="btn btn-info" role="button">README</a>
                 </div>
-                
+
                 <br>
                 <br>
                 <div id="flip4"><a href='http://www.cs.tufts.edu/comp/40/homework/iii' target='_blank'>Interfaces, Implementations, and Images</a></div>
                 <div id="panel4">
-                <br>
-                This assignment contained four components. The first component adapted the unboxed-array abstraction to support two-dimensional arrays. This two dimensional array was used in the second component, which determined the validity of a sudoku board. A portable graymap file that was passed in by a user would be copied into the two dimensional array, during which we would determine the validity of the sudoku board.
-                For the third component of the assignment, I implemented an interface that supported a two dimensional array of bits. This interface was then used to unblack edges of a portable graymap file. Thus, if a file had edge pixels that were black, the unblackedges program would change those edge pixels from black to white.
-                <br>
-                <br>
-                <a href='pdfs/hw2designdoc.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                    <br>
+                    This assignment contained four components. The first component adapted the unboxed-array abstraction to support two-dimensional arrays. This two dimensional array was used in the second component, which determined the validity of a sudoku board. A portable graymap file that was passed in by a user would be copied into the two dimensional array, during which we would determine the validity of the sudoku board.
+                    For the third component of the assignment, I implemented an interface that supported a two dimensional array of bits. This interface was then used to unblack edges of a portable graymap file. Thus, if a file had edge pixels that were black, the unblackedges program would change those edge pixels from black to white.
+                    <br>
+                    <br>
+                    <a href='pdfs/hw2designdoc.pdf' target='_blank' class="btn btn-info" role="button">README</a>
                 </div>
-                
+
                 <br>
                 <br>
                 <div id="flip5"><a href='pdfs/locality.pdf' target='_blank'>Locality</a></div>
                 <div id="panel5">
-                <br>
-                This assignment was all about the cache and locality. I implemented blocked two-dimensional arrays, which I used to evaluate the performance of image rotation utilizing three distinct array-access patterns with different locality properties. In this assignment, I also learned how to write code that is polymorphic in an array type.
-                <br>
-                <br>
-                <a href='pdfs/HW3Design.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                    <br>
+                    This assignment was all about the cache and locality. I implemented blocked two-dimensional arrays, which I used to evaluate the performance of image rotation utilizing three distinct array-access patterns with different locality properties. In this assignment, I also learned how to write code that is polymorphic in an array type.
+                    <br>
+                    <br>
+                    <a href='pdfs/HW3Design.pdf' target='_blank' class="btn btn-info" role="button">README</a>
                 </div>
-                
+
                 <br>
                 <br>
                 <div id="flip6"><a href='pdfs/arith.pdf' target='_blank'>Arith</a></div>
                 <div id="panel6">
-                <br>
-                In this assignment, my partner and I wrote a program that takes a PPM image and compresses the image by transforming color
+                    <br>
+                    In this assignment, my partner and I wrote a program that takes a PPM image and compresses the image by transforming color
                     spaces and discarding information not easily seen by the human eye (this is lossy compression). We
                     packed and unpacked binary data that puts multiple small values (both signed and unsigned) into a single larger
                     integer (often referred to as a word). We worked with two’s-complement representations of signed data.
-                <br>
-                <br>
-                <a href='pdfs/arithDesign.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                    <br>
+                    <br>
+                    <a href='pdfs/arithDesign.pdf' target='_blank' class="btn btn-info" role="button">README</a>
                 </div>
-                
+
                 <br>
                 <br>
                 <div id="flip7"><a href='pdfs/um.pdf' target='_blank'>UM</a></div>
                 <div id="panel7">
-                <br>
-                The purpose of this assignment was to understand virtual-machine code (and by extension machine code)
+                    <br>
+                    The purpose of this assignment was to understand virtual-machine code (and by extension machine code)
                     by writing a software implementation of a simple virtual machine. My partner and I created a design with a clean modular structure.
                     We learned how the structural choices you make affect the performance of your programs.
                     We built an executable named "um". This Linux program takes a single argument which is the pathname
@@ -180,12 +264,12 @@
                     that our emulator is to execute. When a UM program is stored in a file, words are stored using big-endian
                     byte order. Thus the high order four bits of the first byte of the file will be the first operation code for that
                     program. The um was implemented as a 32 bit machine using 64 bit Linux machines.
-                <br>
-                <br>
-                <a href='pdfs/umDesign.pdf' target='_blank' class="btn btn-info" role="button">README</a>
+                    <br>
+                    <br>
+                    <a href='pdfs/umDesign.pdf' target='_blank' class="btn btn-info" role="button">README</a>
                 </div>
-          
-          
+
+
             </div>
         </div>
     </body>
