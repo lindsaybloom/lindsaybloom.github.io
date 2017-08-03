@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app="app1">
 
     <head>
         <title>DIII Recruiting</title>
@@ -61,15 +61,22 @@
 
         <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
         </fb:login-button>
-        <br>
-        <br>
+        <br><br>
         <div class="fb-login-button" data-width="200" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="true"></div> 
-        <br>
-        <br>
+        <br><br>
         <div id="status"></div>
-        <br>
-        <br>
+        <br><br>
         <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+        <br><br>
+        
+        <span>Don't have an account?</span>
+        <span><a href = "newUser.html">Sign up here!</a></span>
+        
+        <!-- Load the AngularJS library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+        <!-- Load the JS Module -->
+        <script src="fbLogin.js"></script>
 
     </body>
 </html>
